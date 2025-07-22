@@ -78,7 +78,7 @@ const FloorPlan1 = () => {
         content="포항펜타시티한신더휴, 펜타시티한신더휴, 포항한신더휴" />
         <link
           rel="canonical"
-          href="https://www.beyinegzersizi.com/FloorPlan/59A"
+          href="https://www.theporest.co.kr/FloorPlan/59A"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -93,11 +93,11 @@ const FloorPlan1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.beyinegzersizi.com/Main1.png"
+          content="https://www.theporest.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.beyinegzersizi.com/FloorPlan/59A"
+          content="https://www.theporest.co.kr/FloorPlan/59A"
         />
         <meta property="og:site_name" content="포항 펜타시티 한신더휴" />
 
@@ -114,11 +114,11 @@ const FloorPlan1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.beyinegzersizi.com/Main1.png"
+          content="https://www.theporest.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.beyinegzersizi.com/FloorPlan/59A"
+          content="https://www.theporest.co.kr/FloorPlan/59A"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -130,7 +130,7 @@ const FloorPlan1 = () => {
 											"name": "포항 펜타시티 한신더휴 - 평면안내",
 											"description": "포항 펜타시티 한신더휴의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 ",
-											"url": "https://www.beyinegzersizi.com/FloorPlan/59A"
+											"url": "https://www.theporest.co.kr/FloorPlan/59A"
 										}
 										`}
         </script>

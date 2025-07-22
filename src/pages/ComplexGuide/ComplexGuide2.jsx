@@ -69,7 +69,7 @@ const ComplexGuide1 = () => {
         content="포항펜타시티한신더휴, 펜타시티한신더휴, 포항한신더휴" /> 
         <link
           rel="canonical"
-          href="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
+          href="https://www.theporest.co.kr/ComplexGuide/detailintro"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -84,11 +84,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.beyinegzersizi.com/Main1.png"
+          content="https://www.theporest.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
+          content="https://www.theporest.co.kr/ComplexGuide/detailintro"
         />
         <meta property="og:site_name" content="포항 펜타시티 한신더휴" />
 
@@ -105,11 +105,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.beyinegzersizi.com/Main1.png"
+          content="https://www.theporest.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
+          content="https://www.theporest.co.kr/ComplexGuide/detailintro"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -121,7 +121,7 @@ const ComplexGuide1 = () => {
 											"name": "포항 펜타시티 한신더휴 - 호수배치도",
 											"description": "포항 펜타시티 한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
 ",
-											"url": "https://www.beyinegzersizi.com/ComplexGuide/detailintro"
+											"url": "https://www.theporest.co.kr/ComplexGuide/detailintro"
 										}
 										`}
         </script>

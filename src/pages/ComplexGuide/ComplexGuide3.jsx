@@ -69,7 +69,7 @@ const ComplexGuide3 = () => {
         content="포항펜타시티한신더휴, 펜타시티한신더휴, 포항한신더휴" />
         <link
           rel="canonical"
-          href="https://www.beyinegzersizi.com/ComplexGuide/community"
+          href="https://www.theporest.co.kr/ComplexGuide/community"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -84,11 +84,11 @@ const ComplexGuide3 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.beyinegzersizi.com/Main1.png"
+          content="https://www.theporest.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.beyinegzersizi.com/ComplexGuide/community"
+          content="https://www.theporest.co.kr/ComplexGuide/community"
         />
         <meta property="og:site_name" content="포항 펜타시티 한신더휴" />
 
@@ -105,11 +105,11 @@ const ComplexGuide3 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.beyinegzersizi.com/Main1.png"
+          content="https://www.theporest.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.beyinegzersizi.com/ComplexGuide/community"
+          content="https://www.theporest.co.kr/ComplexGuide/community"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -121,7 +121,7 @@ const ComplexGuide3 = () => {
 											"name": "포항 펜타시티 한신더휴 - 커뮤니티",
 											"description": "포항 펜타시티 한신더휴의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
 ",
-											"url": "https://www.beyinegzersizi.com/ComplexGuide/community"
+											"url": "https://www.theporest.co.kr/ComplexGuide/community"
 										}
 										`}
         </script>

@@ -233,7 +233,7 @@ const handleInputChange = (e) => {
         <meta name="keywords"
         content="포항펜타시티한신더휴, 펜타시티한신더휴, 포항한신더휴" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.beyinegzersizi.com/" />
+        <link rel="canonical" href="https://www.theporest.co.kr/" />
 
         {/* 모바일 친화성을 위한 추가 태그 */}
         <meta name="HandheldFriendly" content="True" />
@@ -248,11 +248,11 @@ const handleInputChange = (e) => {
           property="og:description"
           content="포항 펜타시티 한신더휴ㅣ☎️(대표)1533-8848ㅣ포항 펜타시티 한신더휴ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
         />
-        <meta property="og:url" content="https://www.beyinegzersizi.com/" />
+        <meta property="og:url" content="https://www.theporest.co.kr/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.beyinegzersizi.com/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
+          content="https://www.theporest.co.kr/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
         />
 
         {/* Twitter 카드 설정 */}
@@ -267,7 +267,7 @@ const handleInputChange = (e) => {
         />
         <meta
           name="twitter:image"
-          content="https://www.beyinegzersizi.com/Main1.png" // 실제 이미지 URL로 변경하세요.
+          content="https://www.theporest.co.kr/Main1.png" // 실제 이미지 URL로 변경하세요.
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도를 높이기 위한 스키마 마크업 */}
@@ -278,8 +278,8 @@ const handleInputChange = (e) => {
         "@type": "ApartmentComplex",
         "name": "포항 펜타시티 한신더휴",
         "description": "브랜드 평판 1위 프리미엄 아파트. 방문 예약 시 신세계상품권 증정 등 다양한 혜택을 제공합니다.",
-        "url": "https://www.beyinegzersizi.com/",
-        "image": "https://www.beyinegzersizi.com/Main1.png",
+        "url": "https://www.theporest.co.kr/",
+        "image": "https://www.theporest.co.kr/Main1.png",
         "telephone": "1533-8848",
         "address": {
           "@type": "PostalAddress",

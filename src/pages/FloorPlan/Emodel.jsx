@@ -46,16 +46,16 @@ const Emodel = () => {
         <title>포항 펜타시티 한신더휴 - E-모델하우스</title>
         <meta name="description" content="포항 펜타시티 한신더휴의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
         <meta name="keywords" content="포항 펜타시티 한신더휴, 펜타시티한신더휴, E-모델하우스, 온라인모델하우스" />
-        <link rel="canonical" href="https://www.beyinegzersizi.com/FloorPlan/Emodel" />
+        <link rel="canonical" href="https://www.theporest.co.kr/FloorPlan/Emodel" />
         <meta property="og:title" content="포항 펜타시티 한신더휴 - E-모델하우스" />
         <meta property="og:description" content="포항 펜타시티 한신더휴의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta property="og:image" content="https://www.beyinegzersizi.com/Main1.png" />
-        <meta property="og:url" content="https://www.beyinegzersizi.com/FloorPlan/Emodel" />
+        <meta property="og:image" content="https://www.theporest.co.kr/Main1.png" />
+        <meta property="og:url" content="https://www.theporest.co.kr/FloorPlan/Emodel" />
         <meta property="og:site_name" content="포항 펜타시티 한신더휴" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="포항 펜타시티 한신더휴 - E-모델하우스" />
         <meta name="twitter:description" content="포항 펜타시티 한신더휴의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="twitter:image" content="https://www.beyinegzersizi.com/Main1.png" />
+        <meta name="twitter:image" content="https://www.theporest.co.kr/Main1.png" />
       </Helmet>
 
       <Header isChanged={isScroll} />

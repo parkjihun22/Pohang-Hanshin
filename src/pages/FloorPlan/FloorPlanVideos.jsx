@@ -78,7 +78,7 @@ const FloorPlanVideos = () => {
         content="포항펜타시티한신더휴, 펜타시티한신더휴, 포항한신더휴" />
         <link
           rel="canonical"
-          href="https://www.beyinegzersizi.com/FloorPlan/videos"
+          href="https://www.theporest.co.kr/FloorPlan/videos"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -93,11 +93,11 @@ const FloorPlanVideos = () => {
         />
         <meta
           property="og:image"
-          content="https://www.beyinegzersizi.com/Main1.png"
+          content="https://www.theporest.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.beyinegzersizi.com/FloorPlan/videos"
+          content="https://www.theporest.co.kr/FloorPlan/videos"
         />
         <meta property="og:site_name" content="포항 펜타시티 한신더휴" />
 
@@ -114,11 +114,11 @@ const FloorPlanVideos = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.beyinegzersizi.com/Main1.png"
+          content="https://www.theporest.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.beyinegzersizi.com/FloorPlan/videos"
+          content="https://www.theporest.co.kr/FloorPlan/videos"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -130,7 +130,7 @@ const FloorPlanVideos = () => {
                       "name": "포항 펜타시티 한신더휴 - 평면안내",
                       "description": "세대안내영상 안내 페이지는 포항 펜타시티 한신더휴의 각 아파트 세대안내영상을 제공합니다.
 ",
-                      "url": "https://www.beyinegzersizi.com/FloorPlan/videos"
+                      "url": "https://www.theporest.co.kr/FloorPlan/videos"
                     }
                     `}
         </script>

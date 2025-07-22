@@ -86,15 +86,15 @@ const BusinessGuide = () => {
       title: "포항 펜타시티 한신더휴 - 사업안내",
       description:
         "포항 펜타시티 한신더휴의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명합니다.",
-      url: "https://www.beyinegzersizi.com/BusinessGuide/intro",
-      image: "https://www.beyinegzersizi.com/Main1.png",
+      url: "https://www.theporest.co.kr/BusinessGuide/intro",
+      image: "https://www.theporest.co.kr/Main1.png",
     },
     3: {
       title: "포항 펜타시티 한신더휴 - 사업안내",
       description:
         "포항 펜타시티 한신더휴의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명합니다.",
-      url: "https://www.beyinegzersizi.com/BusinessGuide/intro",
-      image: "https://www.beyinegzersizi.com/Main1.png",
+      url: "https://www.theporest.co.kr/BusinessGuide/intro",
+      image: "https://www.theporest.co.kr/Main1.png",
     },
   };
 
