@@ -3,16 +3,17 @@ import styles from "./EmodelInline.module.scss";
 
 // Emodel.jsx 에 정의된 탭과 URL을 그대로 복사합니다.
 const menuContents = [
-  { title: "84A", key: "84A" },
-  { title: "109A", key: "109A" },
-  { title: "109B", key: "109B" },
-
+  { title: "84A", key: "59A" },
+  { title: "84B", key: "59B" },
+  { title: "99A", key: "84A" },
+  // { title: "84B", key: "84B" },
 ];
 
 const vrUrls = {
-  "84A": "https://www.hillstate.co.kr/upload/2025/04/20250407100817019911/tour.html",
-  "109A": "https://www.hillstate.co.kr/upload/2025/04/20250407104054016338/tour.html",
-  "109B": "https://www.hillstate.co.kr/upload/2025/04/20250407104514012388/tour.html",
+  "84A": "http://www.ph-thehue.com/common/vr/index.html",
+  "84B": "http://www.ph-thehue.com/common/vr/index.html",
+  "99A": "http://www.ph-thehue.com/common/vr/index.html",
+  // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
 };
 
 export default function EmodelInline() {

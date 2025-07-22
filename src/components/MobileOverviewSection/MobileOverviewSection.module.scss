@@ -5,7 +5,6 @@
   
     // ─── 상단 헤더 영역 ───
     .overviewHeader {
-      
       /* ← 이 부분을 추가! */
       display: flex;
       flex-direction: column;
@@ -13,7 +12,6 @@
       text-align: center;
   
       .preTitle {
-        font-family: 'Pretendard-Regular';
         margin-top: 1vw;
         font-size: 3vw;
         color: #6a6767;
@@ -27,7 +25,6 @@
         margin: 1vw 0;
       }
       .mainTitle {
-        font-family: 'Pretendard-Regular';
         font-size: 5vw;
         color: #000;
         margin: 1vw 0 4vw;
@@ -78,7 +75,7 @@
     &.active {
       .label,
       .arrow {
-        color: #710101;
+        color: #61887b;
       }
     }
   }
@@ -108,7 +105,7 @@
   // ───────────────────────────────────────────────────────────────────
   .accordionContent {
     margin-top: 3vw;
-    border-top: 0.5vw solid #710101;
+    border-top: 0.5vw solid #61887b;
     padding: 2vw 0;
   
     // 5-1. 사업개요 리스트
@@ -179,7 +176,7 @@
       .premiumTitle {
         font-size: 4vw;
         font-weight: 700;
-        color: #710101;
+        color: #61887b;
       }
       .premiumSubtitle {
         margin-top: 0.5vw;
@@ -241,7 +238,7 @@
           transition: background 0.2s ease;
   
           &.dotActive {
-            background: #710101;
+            background: #61887b;
           }
         }
       }

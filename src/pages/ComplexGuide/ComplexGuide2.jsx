@@ -8,8 +8,8 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.webp";
 
+import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.webp";
 
 const ComplexGuide1 = () => {
   const menuContents = [
@@ -48,7 +48,84 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      
+      <Helmet>
+        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
+
+        {/* SEO 최적화를 위한 메타 태그 */}
+        <title>포항 펜타시티 한신더휴 - 호수배치도</title>
+        <meta
+          name="description"
+          content="포항 펜타시티 한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
+        />
+        <meta name="keywords"
+        content="포항펜타시티한신더휴, 펜타시티한신더휴, 포항한신더휴" /> 
+        <link
+          rel="canonical"
+          href="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
+        />
+
+        {/* Open Graph - 소셜 미디어 공유 최적화 */}
+        <meta
+          property="og:title"
+          content="포항 펜타시티 한신더휴 - 호수배치도"
+        />
+        <meta
+          property="og:description"
+          content="포항 펜타시티 한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
+        />
+        <meta
+          property="og:image"
+          content="https://www.beyinegzersizi.com/Main1.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
+        />
+        <meta property="og:site_name" content="포항 펜타시티 한신더휴" />
+
+        {/* Twitter 카드 설정 */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="포항 펜타시티 한신더휴 - 호수배치도"
+        />
+        <meta
+          name="twitter:description"
+          content="포항 펜타시티 한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.beyinegzersizi.com/Main1.png"
+        />
+        <meta
+          name="twitter:url"
+          content="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
+        />
+
+        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+        <script type="application/ld+json">
+          {`
+										{
+											"@context": "https://schema.org",
+											"@type": "WebPage",
+											"name": "포항 펜타시티 한신더휴 - 호수배치도",
+											"description": "포항 펜타시티 한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+",
+											"url": "https://www.beyinegzersizi.com/ComplexGuide/detailintro"
+										}
+										`}
+        </script>
+      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -74,30 +151,22 @@ const ComplexGuide1 = () => {
 				src={page1}
 				alt="포항 펜타시티 한신더휴 호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> 
-
-      {/* <div className={styles.commonBox}>
-				<div className={styles.notice}>
-					※ 상기 호수배치도 이미지는 소비자의 이해를 돕기 위한 것으로 실제와 차이가 날 수 있습니다
-				</div>
-				<div className={styles.notice}>
-					※ 단지 내 조경 및 세부 식재계획, 시설물의 위치는 실제 시공시 현장 상황에 따라 변경될 수 있습니다
-				</div>
-				<div className={styles.notice}>
-					※ 각 동 출입구 근처/지상부에는 환기창의 돌출물 및 그릴이 각동 지상층에 설치될 예정으로 있으며, 이로 인해 냄새 및 소음, 분진등이 발생할 수 있으므로 사전에 분양 홍보물을 참조하여 확인하시기 바라며, 일부 위치 및 형태는 실제 시공시 변경될 수 있습니다
-				</div>
-				<div className={styles.notice}>
-					※ 단지 내 어린이놀이터, 주민운동시설, 휴게시설물, 수경시설의 배치와 디자인은 향후 변경될 수 있습니다.
-				</div>
-				<div className={styles.notice}>
-					※ 단지 외부의 건물, 녹지, 도로 등은 현재 상황 및 계획을 보여주는 것으로 당사의 시공범위가 아니며, CG 및 모형은 소비자의 이해를 돕기 위해 작성된 것으로 실제 조성시 상이할 수 있으며 이에 대한 이의를 제기할 수 없습니다.
-				</div>
-				<div className={styles.notice}>
-					※ 인접 지역 개발 등으로 향후 일조 및 조망과 관련한 변경 사항이 있을 수 있으며, 이에 따른 사업주체 및 시공사의 귀책사유는 없으므로, 사전에 사업부지 현장을 방문하여 확인하시기 바랍니다.
-				</div>
-			</div> */}
+			/>
 
   
+
+      <div className={styles.commonBox}>
+        <div className={styles.notice}>
+          ※ 상기 호수배치도 이미지는 소비자의 이해를 돕기 위한 것으로 실제와
+          차이가 날 수 있습니다
+        </div>
+        <div className={styles.notice}>
+          ※ 단지 내 조경 및 세부 식재계획, 시설물의 위치는 실제 시공시 현장
+          상황에 따라 변경될 수 있습니다
+        </div>
+        
+      </div>
+
       <Footer />
     </div>
   );

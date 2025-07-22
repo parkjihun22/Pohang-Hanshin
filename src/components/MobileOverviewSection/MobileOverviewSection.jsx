@@ -29,27 +29,29 @@ const items = [
         <li>
           <strong>대지위치</strong>
           <span>
-          경기 포항시 처인구 남사읍 아곡리 705번지 7BL<br />
-
+            [A2블록] 포항시 북구 홍해읍 대련리 기술융합지구 펜타시티 A2BL<br />
+            [A4블록] 포항시 북구 홍해읍 대련리 기술융합지구 펜타시티 A4BL
           </span>
         </li>
         <li>
           <strong>건축규모</strong>
           <span>
-            지하 2층 ~ 최고27층, 7개동<br />
+            [A2블록] 지하 3층 ~ 지상 29층<br />
+            [A4블록] 지하 3층 ~ 지상 29층
           </span>
         </li>
         <li>
           <strong>주택형</strong>
           <span>
-            84㎡A·B·C / 109㎡A·B·C / 132㎡A / 150㎡PA·PB·PC / 182㎡P<br />
-        
+            [A2블록] 84㎡ / 99㎡<br />
+            [A4블록] 84B㎡
           </span>
         </li>
         <li>
           <strong>세대수</strong>
           <span>
-          660세대
+            [A2블록] 1,597세대<br />
+            [A4블록] 595세대
           </span>
         </li>
       </ul>
@@ -65,11 +67,7 @@ const items = [
           className={styles.mapImage}
           alt="입지환경 지도 1"
         />
-        <img
-          src={mobileMap2}
-          className={styles.mapImage}
-          alt="입지환경 지도 2"
-        />
+
       </div>
     ),
   },
@@ -82,7 +80,7 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            반도체 클러스터의 중심으로 사는<br />
+            포항 펜타시티의 중심으로 사는<br />
             최고의 브랜드 아파트
           </p>
         </div>
@@ -97,37 +95,37 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "미래가치를 높여주는 포항반도체벨트",
+      title: "미래가치를 높여주는 포항 펜타시티 한신더휴",
       desc:
-        "삼성 · SK하이닉스 반도체 클러스터(계획), <br />포항반도체 클러스터 일반산업단지 L자형 반도체벨트의 비전",
+        "국가첨단전략산업 이차전지 특화단지<br />포항 최초 경제자유구역의 중심",
     },
     {
       img: slide2,
-      title: "의세권을 누리릴 수 있는 프리미엄",
+      title: "한신더휴만의 특화 혁신설계 프리미엄",
       desc:
-        "오래된 의료경력을 갖고 있는<br />500병상 규모 명지병원 인접",
+        "84·99타입 중소형 평형대 설계<br />4BAY,펜트리등 차별화던 혁신평면",
     },
     {
       img: slide3,
       title: "광역으로 통하는 특급 교통",
       desc:
-        "국도42호선,국도45호선, 세종-포천고속도로 등 <br />편리한 교통망에 더해지는 반도체 클러스터",
+        "덕선 IC로 바로 연결예정 <br />포항역 KTX는 덤, 편리한 교통망에 더해지는 포항 펜타시티",
     },
     {
       img: slide4,
       title: "학교, 쇼핑,병원, 문화를 더 가깝게 <br /> 한걸음에 SMART 인프라",
-      desc: "대형 피트니스, 골프연습장, 독서실 등 입주민 전용 시설",
+      desc: "단지 앞 유치원·초등학교(예정)<br /> 펜타시티 내 국제학교 및 중심상권 프리미엄 ",
     },
     {
       img: slide5,
-      title: "압도적인 1군 브랜드",
+      title: "2,192세대 펜타시티 내 대단지 프리미엄",
       desc:
-        "63개월 연속 브랜드 평판 1위 현대건설 프리미엄",
+        "펜타시티 전체 공동주택 부지의 54%를 품은 <br /> 최대규모 대단지 프리미엄",
     },
     {
       img: slide6,
-      title: "확정된 미래가치 보장",
-      desc: "반도체 클러스터 연계 기대수익 및 브랜드 가치 상승",
+      title: "회사보유분 호실 및 특별혜택 증정",
+      desc: "성공 분양의 대표주자 한신더휴 펜타시티 , 마지막 특별분양",
     },
   ];
 

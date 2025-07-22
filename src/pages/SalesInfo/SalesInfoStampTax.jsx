@@ -7,13 +7,15 @@ import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
-// import page1 from "../../assets/SalesInfo/SalesInfoStampTax/page1.jpg";
-import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러오기
+//import page1 from "../../assets/SalesInfo/SalesInfoStampTax/page1.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const ComplexGuide1 = () => {
   const menuContents = [
-    { title: "공급안내", url: "/SalesInfo/guide" },
-    { title: "체크포인트", url: "/SalesInfo/SubscriptionGuide" },
+    { title: "청약제도변경", url: "/SalesInfo/SubscriptionGuide" },
+    // { title: "인터넷 청약", url: "/SalesInfo/guide" },
+    { title: "모집공고안내", url: "/SalesInfo/announcement" },
+    // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -47,7 +49,90 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      
+      <Helmet>
+        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
+
+        {/* SEO 최적화를 위한 메타 태그 */}
+        <title>포항 펜타시티 한신더휴 - 인지세안내 </title>
+        <meta
+          name="description"
+          content="포항 펜타시티 한신더휴 의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.
+
+"
+        />
+        <meta
+          name="keywords"
+          content="포항 펜타시티 한신더휴, 포항 펜타시티 한신더휴, 포항 펜타시티 한신더휴모델하우스"
+        />
+        <link
+          rel="canonical"
+          href="https://www.beyinegzersizi.com/SalesInfo/stampTax"
+        />
+
+        {/* Open Graph - 소셜 미디어 공유 최적화 */}
+        <meta
+          property="og:title"
+          content="포항 펜타시티 한신더휴 - 인지세안내 "
+        />
+        <meta
+          property="og:description"
+          content="포항 펜타시티 한신더휴 의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.
+
+"
+        />
+        <meta
+          property="og:image"
+          content="https://www.beyinegzersizi.com/Main1.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.beyinegzersizi.com/SalesInfo/stampTax"
+        />
+        <meta property="og:site_name" content="포항 펜타시티 한신더휴" />
+
+        {/* Twitter 카드 설정 */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="포항 펜타시티 한신더휴 - 인지세안내 "
+        />
+        <meta
+          name="twitter:description"
+          content="포항 펜타시티 한신더휴의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.
+
+"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.beyinegzersizi.com/Main1.png"
+        />
+        <meta
+          name="twitter:url"
+          content="https://www.beyinegzersizi.com/SalesInfo/stampTax"
+        />
+
+        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+        <script type="application/ld+json">
+          {`
+                                        {
+                                            "@context": "https://schema.org",
+                                            "@type": "WebPage",
+                                            "name": "포항 펜타시티 한신더휴 - 인지세안내 ",
+                                            "description": "포항 펜타시티 한신더휴의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.
+
+",
+                                            "url": "https://www.beyinegzersizi.com/SalesInfo/stampTax"
+                                        }
+                                        `}
+        </script>
+      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -69,24 +154,25 @@ const ComplexGuide1 = () => {
 
       <div className={styles.textBox}>
         <div>인터넷 청약하는 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 포항 마크밸리</div>
+        <div>소수만 누리는 프리미엄 포항 펜타시티 한신더휴 </div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      {/*<img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="포항 펜타시티 한신더휴인지세안내-image1"
+        alt="포항 펜타시티 한신더휴 인지세안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-      /> */}
-
-      {/* <div className={styles.commonBox2}>
-        <div className={styles.notice}>
-          ※ 상기 이미지는 고객의 이해를 돕기 위한 것으로 성공적인 청약을 위해 도움을 드리고있습니다.
-        </div>
-      </div> */}
+      />*/}
 
       <Ready />
+
+      <div className={styles.commonBox2}>
+        <div className={styles.notice}>
+          ※ 상기 이미지는 고객의 이해를 돕기 위한 것으로 성공적인 청약을 위해
+          도움을 드리고있습니다.
+        </div>
+      </div>
 
       <Footer />
     </div>

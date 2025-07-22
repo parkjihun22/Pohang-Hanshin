@@ -10,19 +10,19 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan3/page1.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan3/count01_2_84c.jpg"
 
 const FloorPlan3 = () => {
 	const menuContents = [
 		{ title: "84A", url: "/FloorPlan/59A" },
 		{ title: "84B", url: "/FloorPlan/59B" },
 		{ title: "84C", url: "/FloorPlan/84A" },
-		{ title: "109A", url: "/FloorPlan/84B" },
-		{ title: "109B", url: "/FloorPlan/114A" },
-		{ title: "109C", url: "/FloorPlan/114B" },
-		{ title: "132A", url: "/FloorPlan/114C" },
-		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
+		{ title: "84D", url: "/FloorPlan/84B" },
+		{ title: "99A", url: "/FloorPlan/114A" },
+		{ title: "99B", url: "/FloorPlan/114B" },
+		{ title: "99C", url: "/FloorPlan/114C" },
 		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
+		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 	
 	];
 
@@ -67,15 +67,15 @@ const FloorPlan3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>포항의 눈부신 가치 위에</div>
-				<div>한신더휴의 새로운 자부심으로 찾아옵니다.</div>
+				<div>포항 포항 펜타시티의 눈부신 가치 위에</div>
+				<div>푸르지오의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="포항 펜타시티 한신더휴 84C 평면image"
+				alt="포항 펜타시티 한신더휴 84A 평면안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

@@ -4,12 +4,12 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import styles from './Popup.module.scss'
 import page1 from '../../assets/Popup/page1.jpg'
 import page2 from '../../assets/Popup/page2.jpg'
-import page3 from '../../assets/Popup/page3.jpg'
+// import page3 from '../../assets/Popup/page3.jpg'
 
 const popupArray = [
   { img: page1, url: "" },
-  { img: page2, url: "https://naver.me/55rUFpYq" },
-  { img: page3, url: "" },
+  { img: page2, url: "" },
+
 ]
 
 const Popup = () => {

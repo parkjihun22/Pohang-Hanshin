@@ -10,9 +10,8 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-// 이미지 파일을 추가해야 합니다
-// import page1 from "../../assets/Interior/Interior1/page1.jpg";
-import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러오기
+
+import page1 from "../../assets/Interior/Interior1/page1.jpg";
 
 const Interior1 = () => {
   const menuContents = [
@@ -52,7 +51,84 @@ const Interior1 = () => {
 
   return (
     <div className={styles.container}>
-      
+      <Helmet>
+        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
+
+        {/* SEO 최적화를 위한 메타 태그 */}
+        <title>포항 펜타시티 한신더휴 - 인테리어</title>
+        <meta
+          name="description"
+          content="인테리어 페이지에서는 포항 펜타시티 한신더휴의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+"
+        />
+        <meta name="keywords"
+        content="포항펜타시티한신더휴, 펜타시티한신더휴, 포항한신더휴" />
+        <link
+          rel="canonical"
+          href="https://www.beyinegzersizi.com/Interior/59A"
+        />
+
+        {/* Open Graph - 소셜 미디어 공유 최적화 */}
+        <meta
+          property="og:title"
+          content="포항 펜타시티 한신더휴 - 인테리어"
+        />
+        <meta
+          property="og:description"
+          content="인테리어 페이지에서는 포항 펜타시티 한신더휴의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+"
+        />
+        <meta
+          property="og:image"
+          content="https://www.beyinegzersizi.com/Main1.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.beyinegzersizi.com/Interior/59A"
+        />
+        <meta property="og:site_name" content="포항 펜타시티 한신더휴" />
+
+        {/* Twitter 카드 설정 */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="포항 펜타시티 한신더휴 - 인테리어"
+        />
+        <meta
+          name="twitter:description"
+          content="인테리어 페이지에서는 포항 펜타시티 한신더휴의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.beyinegzersizi.com/Main1.png"
+        />
+        <meta
+          name="twitter:url"
+          content="https://www.beyinegzersizi.com/Interior/59A"
+        />
+
+        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+        <script type="application/ld+json">
+          {`
+										{
+											"@context": "https://schema.org",
+											"@type": "WebPage",
+											"name": "포항 펜타시티 한신더휴 - 인테리어",
+											"description": "인테리어 페이지에서는 포항 펜타시티 한신더휴의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+",
+											"url": "https://www.beyinegzersizi.com/Interior/59A"
+										}
+										`}
+        </script>
+      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -62,7 +138,7 @@ const Interior1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        포항 펜타시티 한신더휴 - 인테리어
+        포항 펜타시티 한신더휴 - 59A 인테리어
       </h1>
       <p className={styles.screenReaderOnly}>
         인테리어 페이지에서는 포항 펜타시티 한신더휴의 고급 인테리어 디자인을
@@ -77,14 +153,13 @@ const Interior1 = () => {
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="포항 펜타시티 한신더휴 인테리어59A-image1"
+				alt="포항 펜타시티 한신더휴 59A 인테리어 안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
+			/>
 
-      <Ready />
       <div className={styles.commonBox2}>
         <div className={styles.notice}>
           ※ 상기 이미지는 전시품목과 유상옵션이 포함된 견본주택을 촬영한 것으로
